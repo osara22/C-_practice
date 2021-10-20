@@ -1,1 +1,2 @@
-# C-_practice
+# Csharp_practice
+簡単なC#のプログラムを作ります
