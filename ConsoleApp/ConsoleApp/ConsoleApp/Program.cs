@@ -6,24 +6,14 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            var random = new Random();
-            var omikuji = random.Next(1, 5);
-            Console.WriteLine(omikuji);
-            if (omikuji == 1)
+            var count = 0;
+            count = int.Parse(Console.ReadLine());
+            var data = "";
+            Console.WriteLine("データ個数:" + count);
+            for (var i = 0; i < count; i++)
             {
-                Console.WriteLine("大吉");
-            }
-            else if (omikuji == 2)
-            {
-                Console.WriteLine("中吉");
-            }
-            else if (omikuji == 3)
-            {
-                Console.WriteLine("小吉");
-            }
-            else
-            {
-                Console.WriteLine("凶");
+                data = Console.ReadLine();
+                Console.WriteLine("hello " + data);
             }
         }
     }
